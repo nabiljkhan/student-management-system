@@ -53,6 +53,7 @@ int main()
     int option;
     char another;
 
+	
     if((fp=fopen("db.txt","rb+"))==NULL)
     {
         if((fp=fopen("db.txt","wb+"))==NULL)
